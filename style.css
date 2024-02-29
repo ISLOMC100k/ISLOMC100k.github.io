@@ -1,0 +1,160 @@
+* {
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: Arial;
+}
+
+header {
+    background-image: url(./header_bg_image\ 1.jpg);
+    background-size: cover;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+    margin: auto;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header .logo {
+    color: #CB0A15;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+header nav ul li a {
+    color: #515151;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 17px 20px;
+    display: block;
+}
+
+header nav ul li a:hover {
+    background: #515151;
+    color: white;
+}
+
+header h1 {
+    text-align: center;
+    color: #CB0A15;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 215px;
+    margin-bottom: 40px;
+}
+
+header p {
+    text-align: center;
+    color: #515151;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 255px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+section{
+    margin-left: 20px;
+}
+section p{
+    width: 550px;
+height: 232px;
+flex-shrink: 0;
+color: #919191;
+font-size: 16px;
+font-weight: 700;
+}
+section img{
+    width: 539px;
+height: 400px;
+flex-shrink: 0;
+}
+.child1 img{
+    width: 159px;
+height: 160px;
+flex-shrink: 0;
+}
+.child1{
+    display: flex;
+    margin-bottom: 27px;
+
+}
+.child2{
+    display: flex;
+    margin-bottom: 27px;
+
+}
+.child3{
+    display: flex;
+    margin-bottom: 27px;
+
+}
+.child4{
+    display: flex;
+    
+}
+h4{
+    width: 179px;
+height: 27px;
+flex-shrink: 0;
+color: #000;
+font-size: 20px;
+font-weight: 700;
+margin-bottom: 18px;
+}
+div p{
+    width: 350px;
+height: 93px;
+flex-shrink: 0;
+color: #919191;
+font-size: 16px;
+font-weight: 400;
+}
+.child5{
+    display: block;
+}
+section img{
+    margin-bottom: 40px;
+}
+.child1 img{
+    margin-right: 26px;
+}
+.child2 img{
+    margin-right: 26px;
+}
+.child3 img{
+    margin-right: 26px;
+}
+.child4 img{
+    margin-right: 26px;
+}
+footer{
+    background-color: #f5ededaf;
+    margin-top: 100px;
+}
+.ota{
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    position: relative;
+    left: 360px;
+}
+h5{
+    margin-top: 50px;
+    margin-bottom: 22px;
+}
+.ota p{
+height: 50px;
+flex-shrink: 0;
+}
